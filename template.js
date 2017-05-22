@@ -1,27 +1,35 @@
-// Simple Template with control and 3 basic methods (functions)
-define(["jquery"], function(jQuery) {
-    "use strict";
+ /*
+   Author: Ed Gonzalez
+  	Free for personal and commercial use under the CCA 3.0 license
+  	I just ask for you give me credit for the code and tell your friends about it.
 
-    //2. Create and Name Control
-    function BasicControl() {};
+  	Note this is a very simple implementation, and is only meant to get you started using Custom Controls, and the MapBox API
+  */
 
-    //3. Add Initialize method to Control
-    BasicControl.prototype.initialize = function(oControlHost, fnDoneInitializing) {
-        console.log('1. Hello init ******************')
-        fnDoneInitializing();
-    };
+ // Simple Template with control and 3 basic methods (functions)
+ define(["jquery"], function(jQuery) {
+     "use strict";
 
-    //4. Add SetData method to control
-    BasicControl.prototype.setData = function(oControlHost, oDataStore) {
-        console.log('2. SetData *****************')
-    };
+     //2. Create and Name Control
+     function BasicControl() {};
 
-    //5. Add SetData method to control
-    BasicControl.prototype.draw = function(oControlHost) {
-        oControlHost.container.innerHTML = "Hello World!!  Map PlaceHolder";
-        console.log('3. Draw ******************')
-    };
+     //3. Add Initialize method to Control
+     BasicControl.prototype.initialize = function(oControlHost, fnDoneInitializing) {
+         console.log('1. Hello init ******************')
+         fnDoneInitializing();
+     };
 
-    //6. Return new Control 
-    return BasicControl;
-});
+     //4. Add SetData method to control
+     BasicControl.prototype.setData = function(oControlHost, oDataStore) {
+         console.log('2. SetData *****************')
+     };
+
+     //5. Add SetData method to control
+     BasicControl.prototype.draw = function(oControlHost) {
+         oControlHost.container.innerHTML = "Hello World!!  Map PlaceHolder";
+         console.log('3. Draw ******************')
+     };
+
+     //6. Return new Control 
+     return BasicControl;
+ });

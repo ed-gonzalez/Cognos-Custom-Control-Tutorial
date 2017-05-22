@@ -1,3 +1,11 @@
+/*
+ Author: Ed Gonzalez
+	Free for personal and commercial use under the CCA 3.0 license
+	I just ask for you give me credit for the code and tell your friends about it.
+
+	Note this is a very simple implementation, and is only meant to get you started using Custom Controls, and the MapBox API
+*/
+
 //Step 1 Add reference tp MapBox API, and to jQuery API, then add variables to be used 
 
 define(["https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.js", "jquery"], function(mapboxgl, jQuery) {
