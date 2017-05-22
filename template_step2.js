@@ -15,7 +15,7 @@
 //Step 2 Add Variables, Initialize Code and set up default map.  Make sure to add Map Token Key
 
 
-define(["mapboxgl", "jquery"], function(mapboxgl, jQuery) {
+define(["https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.js", "jquery"], function(mapboxgl, jQuery) {
     "use strict";
     var map = '',
         bounds = '',

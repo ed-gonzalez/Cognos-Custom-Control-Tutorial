@@ -27,12 +27,9 @@ define(["https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.js", "jquer
 
     function BasicControl() {};
 
-
-
     BasicControl.prototype.initialize = function(oControlHost, fnDoneInitializing, oDataStore) {
 
         jQuery("head link[rel='stylesheet']").last().after("<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />");
-
 
         var mapContainer = oControlHost.container.id;
 
