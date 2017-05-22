@@ -1,10 +1,15 @@
  /*
-   Author: Ed Gonzalez
-  	Free for personal and commercial use under the CCA 3.0 license
-  	I just ask for you give me credit for the code and tell your friends about it.
+  Author: 
+  Ed Gonzalez  
+  edgonzalez@icdata.io
+  www.icdata.io 
+  www.linkedin.com/in/ed-gonzalez-9683696
+  
+   	Free for personal and commercial use under the CCA 3.0 license
+   	I just ask for you give me credit for the code and tell your friends about it.
 
-  	Note this is a very simple implementation, and is only meant to get you started using Custom Controls, and the MapBox API
-  */
+   	Note this is a very simple implementation, and is only meant to get you started using Custom Controls, and the MapBox API
+   */
 
  // Simple Template with control and 3 basic methods (functions)
  define(["jquery"], function(jQuery) {

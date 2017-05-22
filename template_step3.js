@@ -1,5 +1,10 @@
 /*
- Author: Ed Gonzalez
+  Author: 
+ Ed Gonzalez  
+ edgonzalez@icdata.io
+ www.icdata.io 
+ www.linkedin.com/in/ed-gonzalez-9683696
+ 
 	Free for personal and commercial use under the CCA 3.0 license
 	I just ask for you give me credit for the code and tell your friends about it.
 
